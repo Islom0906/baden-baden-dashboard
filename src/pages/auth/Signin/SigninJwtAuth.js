@@ -25,8 +25,8 @@ const SignInJwtAuth = () => {
           className='sign-form'
           name='basic'
           initialValues={{
-            username: 'islom',
-            password: '12345678',
+            username: '',
+            password: '',
           }}
           onFinish={signInUser}
           onFinishFailed={onFinishFailed}>
